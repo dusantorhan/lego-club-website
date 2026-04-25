@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - LEGO Robotics Club</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Style.css">
 </head>
 <body>
 <header>
@@ -12,8 +12,8 @@
 </header>
     <nav>
         <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="activities.html">Activities</a>
+        <a href="About.html">About Us</a>
+        <a href="Activities.html">Activities</a>
         <a href="gallery.html">Gallery</a>
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
@@ -21,8 +21,45 @@
 
 
 <main>
-    <h2>Contact / Join Us</h2>
-    <p>The contact form will be here.</p>
+    <main class="container">
+        <section class="contact">
+            <h2>Contact / Join Our Club</h2>
+
+            <form id="contactForm">
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label>Age group:</label><br>
+                <input type="radio" id="young" name="group" value="young">
+                <label for="young">6–9</label>
+
+                <input type="radio" id="old" name="group" value="old">
+                <label for="old">10–16</label><br><br>
+
+                <label>Interests:</label><br>
+                <input type="checkbox" id="building" name="interest" value="building">
+                <label for="building">Building</label>
+
+                <input type="checkbox" id="programming" name="interest" value="programming">
+                <label for="programming">Programming</label>
+
+                <input type="checkbox" id="join" name="interest" value="join">
+                <label for="join">Join</label><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+
+            <p id="formMessage"></p>
+        </section>
+
+    </main>
 </main>
 
 <footer>

@@ -139,6 +139,13 @@ footer {
 .competition-group {
     margin-top: 20px;
     padding: 15px;
-    background-color: #fafafa;
+    background-color: #fcbf49;
+    border-radius: 10px
+}
+.contact {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: #fcbf49;
     border-radius: 10px;
 }
+
