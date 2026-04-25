@@ -136,3 +136,9 @@ footer {
     border-radius: 10px;
     border-left: 3px solid #d62828;
 }
+.competition-group {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
