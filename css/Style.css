@@ -180,3 +180,18 @@ footer {
     max-width: 100%;
     border-radius: 10px;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+{
+  "club": {
+    "name": "LEGO Robotics Club",
+    "projects": [
+      {
+        "title": "Line Follower",
+        "details": {
+          "difficulty": "Easy",
+          "info": {
+            "motors": 2,
+            "sensors": 1
+          }
+        }
+      },
+      {
+        "title": "Sumo Robot",
+        "details": {
+          "difficulty": "Medium",
+          "info": {
+            "motors": 2,
+            "sensors": 2
+          }
+        }
+      },
+      {
+        "title": "Smart Car",
+        "details": {
+          "difficulty": "Hard",
+          "info": {
+            "motors": 3,
+            "sensors": 3
+          }
+        }
+      }
+    ]
+  }
+}
